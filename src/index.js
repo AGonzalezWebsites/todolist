@@ -1,4 +1,6 @@
 import './style.css';
-import hello from './modules/test';
+import { Task } from './modules/taskCreation';
 
-console.lo(hello)
+const task1 = new Task('Trash', 'Need to take out the trash', new Date('02/20/2024') ,'High' ,'This needs to get done because if not, Mama will yell at me.')
+
+console.log(task1)
